@@ -36,10 +36,10 @@ namespace Wk4E3_Rework
                 Console.WriteLine("Sum of the elements in the matrix: " + sum); //print for user to view
 
                 //transpose
-
                 int rows = matrix.GetLength(0);
                 int cols = matrix.GetLength(1);
-                // Create a transposed matrix (2x3)
+
+                //Create a transposed matrix (2x3)
                 int[,] transposed = new int[cols, rows];
 
                 //swap rows & columns
