@@ -12,7 +12,7 @@ namespace Wk4E3_Rework
         {
 
             {
-                //creating the matrix
+                //Declarations creating the matrix
                 int[,] matrix = new int[,] { { 1, 2, 3 }, { 4, 5, 6 } };
 
                 Console.WriteLine("Original matrix: ");//print for user to view
